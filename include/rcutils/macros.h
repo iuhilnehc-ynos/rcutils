@@ -79,7 +79,7 @@ extern "C"
  * https://gcc.gnu.org/onlinedocs/gcc/Common-Function-Attributes.html
  *
  * For the following function:
- * ```
+ * ```c
  * int snprintf(char *str, size_t size, const char *format, ...);
  *              ^^^^^^^^^  ^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^  ^^^
  *              ARG 1      ARG 2        ARG 3               ARG 4
